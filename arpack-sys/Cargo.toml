@@ -1,0 +1,10 @@
+[package]
+name = "arpack-sys"
+version = "0.1.0"
+authors = ["Magnus Ulimoen <magnus@ulimoen.dev>"]
+edition = "2018"
+build = "build.rs"
+links = "arpack"
+
+[build-dependencies]
+bindgen = "0.55.1"
